@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+   id="MetaDimensionLookup"
+   iconfile="DIM.png"
+   description="Dimension Lookup (Meta)"
+   tooltip="Customized Dimension Lookup step with metadata injection enabled"
+   category="Data Warehouse"
+   classname="mc.pentaho.di.trans.steps.dimensionlookup.DimensionLookupMeta">
+   <libraries>
+    <library name="meta-dimensionlookup.jar"/>
+    </libraries>
+    
+</plugin>
